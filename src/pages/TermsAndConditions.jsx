@@ -2,68 +2,54 @@ import React from "react";
 
 const TermsAndConditions = () => {
   return (
-    <div className="min-h-screen bg-gray-100 px-4 py-8">
-      <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-6">
-        <h1 className="text-2xl font-bold mb-2">Terms & Conditions</h1>
-        <p className="text-sm text-gray-500 mb-6">
-          Last updated: January 2026
-        </p>
+    <div className="container py-5">
+      <div className="card shadow-lg border-0 rounded-4">
+        <div className="card-body p-5">
+          <h1 className="fw-bold mb-2">Terms & Conditions</h1>
+          <p className="text-muted mb-4">Last updated: January 2026</p>
 
-        <h2 className="font-semibold text-lg mb-2">
-          1. Acceptance of Terms
-        </h2>
-        <p>
-          By using this <strong>Estatehouz</strong> app, you agree to comply with these Terms & Conditions.
-        </p>
+          <h5 className="fw-bold">1. Acceptance of Terms</h5>
+          <p>
+            By using <strong>V Farm Houses</strong>, you agree to these terms.
+          </p>
 
-        <h2 className="font-semibold text-lg mt-5 mb-2">
-          2. User Accounts
-        </h2>
-        <p>
-          Users must log in using a valid mobile number verified via OTP.
-        </p>
+          <h5 className="fw-bold mt-4">2. User Registration</h5>
+          <p>
+            Users must register with accurate details including name, mobile,
+            and email.
+          </p>
 
-        <h2 className="font-semibold text-lg mt-5 mb-2">
-          3. Product Listings
-        </h2>
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Users can list their own products for sale</li>
-          <li>Users can browse and buy products listed by others</li>
-          <li>All product information must be accurate and lawful</li>
-        </ul>
+          <h5 className="fw-bold mt-4">3. Farmhouse Booking</h5>
+          <ul>
+            <li>Bookings are subject to slot availability.</li>
+            <li>Users must provide correct booking details.</li>
+            <li>Payments and confirmations must be completed on time.</li>
+          </ul>
 
-        <h2 className="font-semibold text-lg mt-5 mb-2">
-          4. Location-Based Listings
-        </h2>
-        <p>
-          The app displays nearby products, houses, and apartments based on user
-          location. We do not guarantee availability or accuracy of listings.
-        </p>
+          <h5 className="fw-bold mt-4">4. Location Services</h5>
+          <p>
+            We use your location to recommend nearby farmhouses but do not
+            guarantee availability.
+          </p>
 
-        <h2 className="font-semibold text-lg mt-5 mb-2">
-          5. Prohibited Activities
-        </h2>
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Posting fake or misleading listings</li>
-          <li>Harassment or misuse of other users</li>
-          <li>Unauthorized access or data misuse</li>
-        </ul>
+          <h5 className="fw-bold mt-4">5. Prohibited Activities</h5>
+          <ul>
+            <li>Providing false information</li>
+            <li>Misusing the platform</li>
+            <li>Attempting unauthorized access</li>
+          </ul>
 
-        <h2 className="font-semibold text-lg mt-5 mb-2">
-          6. Account Termination
-        </h2>
-        <p>
-          We reserve the right to suspend or terminate accounts that violate
-          these terms.
-        </p>
+          <h5 className="fw-bold mt-4">6. Account Suspension</h5>
+          <p>
+            Accounts violating our policies may be suspended without notice.
+          </p>
 
-        <h2 className="font-semibold text-lg mt-5 mb-2">
-          7. Liability
-        </h2>
-        <p>
-          We are not responsible for disputes, transactions, or outcomes between
-          buyers and sellers.
-        </p>
+          <h5 className="fw-bold mt-4">7. Liability</h5>
+          <p>
+            V Farm Houses is not responsible for disputes between property
+            owners and users.
+          </p>
+        </div>
       </div>
     </div>
   );
